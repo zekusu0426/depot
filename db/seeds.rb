@@ -15,7 +15,7 @@ Product.create([
     id: 1,
     title: 'Programing Ruby 1.9',
     description: %{<p>
-      Ruby is the fastest growing 
+      Ruby is the fastest growing
       and most exciting dynamic language out there.
       </p>},
     image_url: 'ruby.jpg',
