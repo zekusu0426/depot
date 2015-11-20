@@ -74,7 +74,7 @@ class ProductTest < ActiveSupport::TestCase
     assert product.invalid?
 
     product.title = "a b c d e f"
-    assert product.invalid?
+    assert product.valid?
 
     product.title = "1234567890"
     assert product.valid?
