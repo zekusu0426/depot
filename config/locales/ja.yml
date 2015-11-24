@@ -19,34 +19,16 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+ja:
 
   layouts:
     application:
       title:       "Pragmaatic Bookshelf"
-      home:        "Home"
-      questions:   "Questions"
-      news:        "News"
-      contact:     "Contact"
+      home:        "ホーム"
+      questions:   "よくある質問"
+      news:        "ニュース"
+      contact:     "お問い合わせ"
   store:
     index:
-      title_html: "Pragmaatic Bookshelf"
-      add_html:   "Add to Cart"
-  number:
-    currency:
-      format:
-        unit: "$"
-        precision: 2
-        separator: "."
-        delimiter: ","
-        format: "%u%n"
-  orders:
-    new:
-      legend: "Please Enter Your Details"
-    form:
-      name: "Name"
-      address_html: "Address"
-      email: "Email"
-      pay_type: "Pay with"
-      pay_prompt_html: "Select a payment method"
-      submit: "Place Order"
+      title_html: "Pragmaatic Bookshelf カタログ"
+      add_html:   "カートに入れる"
